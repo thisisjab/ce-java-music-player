@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfd6c666-ac74-479a-8613-433fbe69652a" name="Changes" comment="Create SplitPane in Main">
+    <list default="true" id="cfd6c666-ac74-479a-8613-433fbe69652a" name="Changes" comment="Add styles to application title in Main window">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/musicplayer/image/music_note_FILL0_wght400_GRAD0_opsz48 (1).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/musicplayer/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/musicplayer/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/musicplayer/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/musicplayer/hello-view.fxml" afterDir="false" />
@@ -98,12 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673080480781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add main components to Main">
+      <created>1673081674377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673081674377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Create SplitPane in Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create SplitPane in Main" />
+    <MESSAGE value="Add main components to Main" />
+    <MESSAGE value="Add styles to application title in Main window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add styles to application title in Main window" />
   </component>
 </project>
