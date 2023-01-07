@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.BorderPane?>
-
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
-
-<BorderPane fx:controller="com.example.musicplayer.HelloController" xmlns:fx="http://javafx.com/fxml">
-    <left>
-        <VBox>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.SplitPane?>
+<SplitPane stylesheets="@css/main.css" fx:controller="com.example.musicplayer.HelloController" xmlns:fx="http://oracle.com/javafx">
+        <VBox style="-fx-background-color: blue" maxWidth="400" minWidth="265">
             <Label text="Music Player"/>
             <TextField promptText="Search Something..." focusTraversable="false"/>
             <Label text="Playlists"/>
             <Label text="Liked Songs"/>
             <Label text="Add Playlist"/>
-            <Label text="Setting"/>
+            <Label text="Settings"/>
         </VBox>
-    </left>
-</BorderPane>
+        <VBox style="-fx-background-color: yellow">
+            <Label text="Albums go here"/>
+        </VBox>
+</SplitPane>
