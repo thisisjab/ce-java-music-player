@@ -6,15 +6,15 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.SplitPane?>
 <SplitPane stylesheets="@css/main.css" fx:controller="com.example.musicplayer.HelloController" xmlns:fx="http://oracle.com/javafx">
-        <VBox style="-fx-background-color: blue" maxWidth="400" minWidth="265">
-            <Label text="Music Player"/>
+        <VBox styleClass="leftSidebar" maxWidth="400" minWidth="265">
+            <Label text="Music Player" maxWidth="Infinity" textAlignment="CENTER" alignment="CENTER" styleClass="sidebarText"/>
             <TextField promptText="Search Something..." focusTraversable="false"/>
-            <Label text="Playlists"/>
-            <Label text="Liked Songs"/>
-            <Label text="Add Playlist"/>
-            <Label text="Settings"/>
+            <Label text="Playlists" styleClass="sidebarText" />
+            <Label text="Liked Songs" styleClass="sidebarText"/>
+            <Label text="Add Playlist" styleClass="sidebarText"/>
+            <Label text="Settings" styleClass="sidebarText"/>
         </VBox>
-        <VBox style="-fx-background-color: yellow">
+        <VBox styleClass="rightSidebar">
             <Label text="Albums go here"/>
         </VBox>
 </SplitPane>

@@ -1,4 +1,20 @@
+/*
+Color palette used for this app: https://coolors.co/palette/0b132b-1c2541-3a506b-5bc0be-6fffe9
+*/
+
 * {
     -fx-font-family: "Ubuntu";
     -fx-font-size: 25;
+}
+
+.leftSidebar {
+    -fx-background-color: #0b132b;
+}
+
+.rightSidebar {
+    -fx-background-color: #0b132b;
+}
+
+.sidebarText {
+    -fx-text-fill: white;
 }
