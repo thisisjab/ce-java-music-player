@@ -8,7 +8,8 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
-<SplitPane styleClass="splitPane" stylesheets="@css/main.css" fx:controller="com.example.musicplayer.HelloController"
+<?import javafx.scene.control.Button?>
+<SplitPane styleClass="splitPane" stylesheets="@css/main.css" fx:controller="com.example.musicplayer.MainController"
            xmlns:fx="http://oracle.com/javafx">
     <VBox styleClass="leftSidebar" maxWidth="500" minWidth="300">
         <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 10">
@@ -19,10 +20,10 @@
                    styleClass="sidebarText" style="-fx-font-weight: bold;"/>
         </HBox>
         <TextField promptText="Search Something..." styleClass="searchTextField" focusTraversable="false"/>
-        <Label text="Playlists" styleClass="sidebarText"/>
-        <Label text="Liked Songs" styleClass="sidebarText"/>
-        <Label text="Add Playlist" styleClass="sidebarText"/>
-        <Label text="Settings" styleClass="sidebarText"/>
+        <Button text="Playlists" styleClass="buttonClass" prefWidth="Infinity" alignment="CENTER_LEFT"/>
+        <Button text="Liked Songs" styleClass="buttonClass" prefWidth="Infinity" alignment="CENTER_LEFT"/>
+        <Button text="Add Playlist" styleClass="buttonClass" prefWidth="Infinity" alignment="CENTER_LEFT"/>
+        <Button text="Settings" styleClass="buttonClass" prefWidth="Infinity" alignment="CENTER_LEFT"/>
     </VBox>
     <VBox styleClass="rightSidebar">
         <Label text="Albums go here"/>
